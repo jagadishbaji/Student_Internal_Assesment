@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master1.master.cs" Inherits="MasterPage3" %>
+
+<%@ Register src="header.ascx" tagname="header" tagprefix="uc1" %>
+<%@ Register src="footer.ascx" tagname="footer" tagprefix="uc2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="../css/m.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/c_Pointer.css" type="text/css" media="screen" />
+    
+<link rel="stylesheet" href="css/mmenu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/slide.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/rib.css" type="text/css" media="screen" />
+                <link rel="stylesheet" href="../menu/tb.css" type="text/css" media="screen" />
+
+
+    <style type="text/css">
+
+        .allSides
+         {
+             width:988px;
+             margin:auto;
+             border: solid 1px #555; 
+            
+             box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+             -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+             -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6); 
+             -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+        }
+        .allSides1
+        {
+             width:80%;
+             margin:auto;
+             
+        } 
+
+        .img
+         {
+            border:none;
+        }
+            .img:hover {
+                width:40px;
+                height:40px;
+            }
+    </style>
+
+    <script type="text/javascript">
+
+</script>
+
+    <title></title>
+   
+    <link href="generic.css" rel="stylesheet" type="text/css" />
+    
+    </head>
+   
+<body>
+ 
+    <form id="form1" runat="server">
+     <div>
+        <div style="padding-top:0px">
+            <uc1:header ID="header1" runat="server" />
+            
+        </div>
+        
+        <div class="ribbon both_ribbon">
+
+            <marquee scrollamount="3" direction="right" behavior="alternate"><h3 style="color:white">Online Student Assesment </h3></marquee>
+
+        </div>
+         
+        <div class="allSides">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+            <div class="slides">
+                <ul>
+                    <!-- slides -->
+                    <li>
+                        <img class="b" src="img/1.jpg" alt="img1" /> </li>
+                    <li>
+                        <img class="b" src="img/2.jpg" alt="img2" /> </li>
+                    <li>
+                        <img class="b" src="img/3.jpg" alt="img3" /> </li>
+                    <li>
+                        <img class="b" src="img/4.jpg" alt="img4" /> </li>
+                </ul>
+            </div>
+            <div class="box">
+                <div id="header">
+    <!-- logo -->
+                    &nbsp;
+
+    <!-- extra top links -->
+                    <div id="links">
+                        <a href="#">Help</a> <a href="http://www.google.com">Register</a> <a href="#">Login</a>
+                    </div>
+
+    <!-- navigation menu -->
+                    <div id="navmenu">
+                        <nav id="menu">
+                            <ul>
+                                <li class="active"><a href="index.php">Home</a>
+                                    <ul>
+                                        <li><a href="#"><span class="icon elem1"></span>Facebook</a></li>
+                                        <li><a href="#"><span class="icon elem2"></span>Google</a></li>
+                                        <li><a href="#"><span class="icon elem3"></span>RSS</a></li>
+                                        <li><a href="#"><span class="icon elem4"></span>Skype</a></li>
+                                        <li><a href="#"><span class="icon elem5"></span>Stumbleupon</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Faces</a>
+                                    <ul>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 1</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 2</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 3</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 4</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Clubs</a>
+                                    <ul>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 1</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 2</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 3</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 4</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Photos</a>
+                                    <ul>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 1</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 2</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 3</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 4</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Blog</a>
+                                    <ul>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 1</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 2</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 3</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 4</a></li>
+                                        <li><a href="#"><span class="icon elem0"></span>menu element 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Classifieds</a></li>
+                            </ul>
+                        </nav>
+                        <div style="margin:10px">
+                            <img class="img" src="img/f.jpg" height="30" width="30" />
+                            <img class="img" src="img/g.jpg" height="30" width="30" />
+                            <img class="img" src="img/t.jpg" height="30" width="30" />
+                            <img class="img" src="img/r.jpg" height="30" width="30" />
+                        </div>
+                       
+
+
+        <!-- search form -->
+                       <%-- <div id="search">
+                            <form role="search" method="get">
+                                <input type="text" placeholder="search..." name="s" value="" autocomplete="off" />
+                            </form>
+                        </div>--%>
+                        <form id="header-search">
+                            <input type="text" class="searchbox" /><input type="submit" class="button" value="" /></form>
+                    </div>
+                </div>
+            </div>
+            
+        </asp:ContentPlaceHolder>
+    </div>
+        <br />
+            <br /><br /><br /><br />
+   
+       
+         <div>
+             <uc2:footer ID="footer1" runat="server" />
+        </div>
+            </div></div>
+    </form>
+        
+      
+</body>
+</html>

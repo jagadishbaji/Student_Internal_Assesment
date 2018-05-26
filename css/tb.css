@@ -1,0 +1,22 @@
+input.tb{
+      padding:6px;
+      font-size:15px;
+      border:2px solid #ccc;
+      background: white;
+      padding: 5px;
+      width:210px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      -webkit-transition: 0.5s ease-in-out all;
+      -moz-transition: 0.5s ease-in-out all;
+      -ms-transition: 0.5s ease-in-out all;
+      -o-transition: 0.5s ease-in-out all;
+      transition: 0.5s ease-in-out all;
+	}
+      
+    input.tb:focus{
+        border-color:white;
+        -moz-box-shadow: 0px 0px 12px #fff;
+        -webkit-box-shadow: 0px 0px 12px #fff;
+        box-shadow: 0px 0px 12px #fff;
+    }
